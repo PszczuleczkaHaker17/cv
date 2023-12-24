@@ -1,0 +1,660 @@
+
+
+body {
+    margin: 0;
+}
+img{
+    width: 600px;
+    height: 280px;
+}
+nav {
+    background-color: transparent; /* Maksymalnie przezroczyste tło */
+    padding: 10px;
+}
+.parallax3{
+  height: 85vh;
+  width: 100%;
+  background-image: url("contact.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+.contact-elements {position:relative; width:100%;}
+input.input-field,
+.tel-number-field,
+.textarea-field,
+ .select-field{
+   
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+.input-field:focus,
+.tel-number-field:focus,
+.textarea-field:focus,  
+.select-field:focus{
+    border: 1px solid #0C0;
+}
+
+
+div.contact, textarea, input {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact {
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	line-height:20px;
+	}
+.contact h2 {font-size:50px;}
+.headline {
+	font-size:50px;
+}
+  .center-btn {
+    text-align: center;
+  }
+.container {
+  max-width: 510px;
+  min-width: 300px;
+  margin: 50px auto 0px;
+  padding-bottom:46px;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-bottom: 3px solid #ccc;
+  border-radius:5px;
+}
+
+.row {
+  width: 100%;
+  margin: 0 0 1em 0;
+  padding: 0 2.5em;
+}
+.row.header {
+  padding: 1.5em 2.5em;
+  border-bottom: 1px solid #ccc;
+  background-color:#63a7d6;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  text-align:center;
+}
+.row.body {
+  padding: .5em 2.5em 1em;
+}
+
+div.contact-elements p.pull-right {
+  float: right;
+}
+div.contact-elements p.left {float:left;}
+
+.btn {
+  font-size: 1.0625em;
+  display: inline-block;
+  padding: 0.74em 1.5em;
+  margin: 1.5em 0 0;
+  color: #fff;
+  border-width: 0 0 0 0;
+  border-radius:5px;
+  text-transform: uppercase;
+  background-color: #b3b3b3;
+  border-bottom-color: #8c8c8c;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+    box-shadow: 1px 1px 4px #ccc;
+    -moz-box-shadow: 1px 1px 4px #ccc;
+    -webkit-box-shadow: 1px 1px 4px #ccc;
+}
+.btn:hover {
+  background-color: #bfbfbf;
+}
+.btn.btn-submit {
+  background-color: #63a7d6;
+  border-bottom-color: #374d78;
+}
+.btn.btn-submit:hover {
+  background-color: #5f7db6;
+}
+
+.contact-elements {
+  max-width: 100%;
+  display: block;
+}
+.contact-elements ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-elements ul li {
+  margin: 0 0 0.25em 0;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+.contact-elements ul li:last-child {
+  margin: 0;
+}
+.contact-elements ul li p {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.contact-elements ul li p.right {
+  float: right;
+}
+.contact-elements ul li .divider {
+    border: 0;
+	margin-top: 60px;
+  margin-bottom: 15px;
+    border-bottom: 1px dashed #ccc;
+    background: #eaeaea;
+	opacity:.5;
+}
+.contact-elements ul li, .req {
+	font-size:15px;
+	color:#63a7d6;
+	font-variant:small-caps;
+	text-transform:lowercase;
+	font-weight:bolder;
+}
+.contact-elements label {
+  display: block;
+  margin: 0 0 0.5em 0;
+  color: #4f6fad;
+  font-size: 1em;
+}
+.contact-elements input {
+  margin: 0 0 0.5em 0;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  color: #555;
+  font-size: 1em;
+}
+.contact-elements textarea {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  width: 100%;
+  color: #555;
+  resize:none;
+  overflow:auto;
+}
+.contact-elements small {
+  color: #4f6fad;
+  margin: 0 0 0 0.5em;
+}
+
+@media only screen and (max-width: 900px) {
+  .div.contact-elements p.pull-right {
+    float: none;
+  }
+  .center-btn {
+    text-align: left;
+  }
+  input {
+    width: 100%;
+  }
+
+  label {
+    width: 100%;
+    display: inline-block;
+   
+    clear: both;
+  }
+
+  li, p {
+    width: 100%;
+  }
+
+  input.btn {
+    margin: 0 0 0.5em;
+  }
+
+  li small {
+    display: none;
+  }
+}
+
+.sekcja1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px; /* Dodatkowy padding dla estetyki */
+    margin-left: 10%;
+    height: 70vh;
+ 
+}
+.sekcja2 {
+    display: flex;
+    flex-direction: column; /* Ustawienie kierunku flex na kolumnę */
+    align-items: center; /* Wyśrodkowanie elementów w osi X */
+    text-align: center;
+}
+.sekcja2 h2 {
+    margin-bottom: 20px; /* Dodatkowy margines na dole h2 */
+    font-family: 'Montserrat', sans-serif; /* Wybór czcionki */
+    font-size: 35px; /* Rozmiar czcionki */
+    font-weight: 700; /* Pogrubienie czcionki */
+    color: #333; /* Kolor tekstu */
+    
+}
+
+.sekcja3 h2 {
+    margin-bottom: 30px; /* Dodatkowy margines na dole h2 */
+    font-family: 'Montserrat', sans-serif; /* Wybór czcionki */
+    font-size: 35px; /* Rozmiar czcionki */
+    font-weight: 700; /* Pogrubienie czcionki */
+    color: #333; /* Kolor tekstu */
+    margin-top: 10%;
+    
+}
+.sekcja3 {
+    display: flex;
+    flex-direction: column; /* Ustawienie kierunku flex na kolumnę */
+    align-items: center; /* Wyśrodkowanie elementów w osi X */
+    text-align: center;
+    margin: 25px;
+
+}
+
+.sekcja3 img{
+    border: 3px solid #252424; /* Obramowanie */
+}
+.tekst {
+    flex: 1;
+    max-width: 50%;
+    border: 3px solid #ddd; /* Obramowanie */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Cień */
+    padding: 60px; /* Dodatkowy padding dla estetyki */
+}
+.sekcja4 {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right, #3498db, #9b59b6);
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+ background-color: rgb(27, 27, 27);
+ color: #008CBA;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 10px; /* opcjonalne - dodaje odstęp dookoła tekstu */
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+footer p {
+  
+  font-size: 16px; /* Dostosuj wielkość tekstu według potrzeb */
+  font-weight: bold; /* Nadaje tekstu pogrubienie */
+  font-family: 'Arial', sans-serif; /* Wybierz odpowiednią rodzinę czcionek */
+  font-style: italic; /* Styl kursywy (jeśli chcesz) */
+}
+.left-side {
+    width: 50%;
+    margin-left: 28%;
+    line-height: 1.2; /* Zmniejszenie odstępu między wierszami */
+}
+
+.right-side {
+   margin-right: 30%;
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #3498db; /* Kolor tła przycisku */
+    color: #fff; /* Kolor tekstu przycisku */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.przycisk1:hover {
+    background-color: #3498db; /* Kolor tła przycisku po najechaniu myszką */
+}
+.tekst h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.tekst p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.obrazek {
+    margin-left: -30px;
+    margin-right: 2%;
+    overflow: hidden;
+    flex: 1;
+    max-width: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Cień */
+    border: 3px solid #ddd;
+}
+.obrazek img {
+    width: 100%; /* Ustawienie szerokości obrazka na 100%, aby dopasować do kontenera */
+    height: auto; /* Ustawienie wysokości na auto, aby zachować proporcje obrazka */
+}
+/* Dodatkowe style dla responsywności */
+@media (max-width: 768px) {
+    .sekcja1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tekst,
+    .obrazek {
+        max-width: 100%;
+    }
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    background-size: cover;
+}
+.bg {
+    background-image: url('bg.png');
+    background-size: cover; /* Wypełnij cały obszar tła */
+    background-position: center; /* Wycentruj obraz tła */
+    height: 100vh; /* Ustaw wysokość na 100% widoku */
+    box-shadow: 0 32px 64px rgb(43, 113, 194,0.8); /* Cień */
+    border-radius:50%;
+    border: px solid rgb(43, 113, 194,0.8); 
+   
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: rgb(86, 168, 209);
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 4px;
+    color: white;
+    margin: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+#logocv {
+    width: 100px;
+    height: 100px;
+}
+/* Styl dla kontenera przycisków */
+#przyciski {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styl dla pierwszego przycisku */
+.przycisk1 {
+    background-color: transparent; /* Tło przezroczyste */
+    color: #001F3F; /* Czarno-niebieski kolor tekstu */
+    padding: 10px 20px; /* Wielkość wewnętrznego odstępu */
+    font-size: 18px; /* Zwiększono rozmiar czcionki */
+    font-weight: bold; /* Pogrubienie tekstu */
+    border: 2px solid #001F3F; /* Obramowanie */
+    border-radius: 5px; /* Zaokrąglenie narożników */
+    cursor: pointer; /* Zmiana kursora na wskaźnik */
+    margin-right: 10px; /* Dodatkowy odstęp między przyciskami */
+}
+
+/* Styl dla drugiego przycisku */
+.przycisk2 {
+    background-color: #008CBA; /* Czarno-niebieskie tło */
+    color: #FFFFFF; /* Biały kolor tekstu na tle czarno-niebieskim */
+    padding: 10px 20px; /* Wielkość wewnętrznego odstępu */
+    font-size: 18px; /* Zwiększono rozmiar czcionki */
+    font-weight: bold; /* Pogrubienie tekstu */
+    border: none; /* Usunięcie obramowania */
+    border-radius: 5px; /* Zaokrąglenie narożników */
+    cursor: pointer; /* Zmiana kursora na wskaźnik */
+    margin-right: 10px; /* Dodatkowy odstęp między przyciskami */
+}
+
+:root {
+    --card-height: 300px;
+    --card-width: calc(var(--card-height) / 1.5);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .card {
+    width: var(--card-width);
+    height: var(--card-height);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 36px;
+    perspective: 2500px;
+    
+    
+  
+    margin: 35px;
+    
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .wrapper {
+    transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    text-align: center;
+    box-shadow: 1px 35px 32px -8px rgba(0, 0, 0, 0.75);
+   
+  }
+  
+  .card:hover .wrapper {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    box-shadow: 1px 35px 32px -8px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 1px 20px 32px -8px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 1px 20px 32px -8px rgba(0, 0, 0, 0.50);
+  }
+  
+  .wrapper::before,
+  .wrapper::after {
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+  }
+  .wrapper::before {
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%
+    );
+  }
+  .wrapper::after {
+    bottom: 0;
+    opacity: 1;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      
+    );
+  }
+  
+  .card:hover .wrapper::before,
+  .wrapper::after {
+    opacity: 1;
+    
+  }
+  
+  .card:hover .wrapper::after {
+    height: 120px;
+  }
+  .title {
+    width: 100%;
+    transition: transform 0.5s;
+    margin-bottom: 5px;
+  }
+  .card:hover .title {
+    transform: translate3d(0%, -50px, 100px);
+  }
+  
+  .character {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .card:hover .character {
+    opacity: 1;
+    transform: translate3d(0%, -30%, 100px);
+  }
+
+ 
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .et-hero-tabs,
+  .et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    position: relative;
+    
+    
+    text-align: center;
+    padding: 0 2em;
+  }
+  .et-hero-tabs h1,
+  .et-slide h1 {
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
+  .et-hero-tabs h3,
+  .et-slide h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+  
+  .et-hero-tabs-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    
+    width: 95%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: white;
+    z-index: 10;
+    
+    
+    
+    
+    
+  }
+  
+  .et-hero-tabs-container--top {
+    position: fixed;
+    top: 0;
+  }
+  
+ 
+  
+  .et-hero-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: black;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+    border: 1px solid black;
+  }
+  .et-hero-tab:hover {
+    color: white;
+    background: rgba(102, 177, 241, 0.8);
+    transition: all 0.5s ease;
+  }
+  
+  .et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #66B1F1;
+    transition: left 0.3s ease;
+  }
+  
+  @media (min-width: 800px) {
+    .et-hero-tabs h1,
+  .et-slide h1 {
+      font-size: 3rem;
+    }
+    .et-hero-tabs h3,
+  .et-slide h3 {
+      font-size: 1rem;
+    }
+  
+    .et-hero-tab {
+      font-size: 1rem;
+    }
+  }
+  
